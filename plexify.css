@@ -1,0 +1,97 @@
+@import "blue-theme.css";
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@700&display=swap');
+
+body, input, textarea, select, button {
+	font-family: "IBM Plex Sans", "Roboto", Arial, Helvetica, Tahoma, sans-serif;
+	letter-spacing: -0.2px;
+}
+
+pre, .monospace-font {
+	font-family: "IBM Plex Mono", "Consolas", "Menlo", Courier, monospace;
+}
+
+.server-name {
+	display: none;
+}
+
+header {
+	position: fixed;
+	z-index: 999;
+	min-width: calc(100% - 195px);
+	background: #0A466A;
+	color: white;
+	border-bottom: none;
+}
+
+header h1 {
+	font-weight: 700;
+	font-family: "IBM Plex Sans Condensed";
+}
+
+aside.sidebar.is-compact + div.wrapper header {
+        min-width: calc(100% - 68px);
+}
+
+aside.sidebar.is-hidden + div.wrapper header {
+	min-width: calc(100% - 20px);
+}
+
+main {
+	margin-top: 50px;
+}
+
+output {
+	margin-top: 55px!important;
+	margin-bottom: -50px!important;
+}
+
+.overlay-dialogue-body output {
+	margin-top: 0!important;
+	margin-bottom: 0!important;
+}
+
+.overlay-close-btn {
+	z-index: 900;
+}
+
+header a.link-action {
+	color: white;
+}
+
+header a.link-action:hover {
+	color: white;
+}
+
+header a.link-action h1::after {
+	border-color: rgba(255,255,255,0.5);
+}
+
+header a.link-action:hover h1::after {
+	border-color: white;
+}
+
+header a.link-action {
+	border-color: rgba(255,255,255,0.5);
+	transition-duration: 0.3s;
+}
+
+header a.link-action:hover {
+	border-color: rgba(255,255,255,0.75);
+}
+
+header a.icon-doc-link {
+	display: none;
+}
+
+.sidebar a.icon-support {
+	display: none;
+}
+
+.sidebar a.icon-integrations {
+	display: none;
+}
+
+.dashboard-widget-item .item-value {
+	font-family: "IBM Plex Sans Condensed";
+}
