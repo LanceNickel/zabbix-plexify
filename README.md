@@ -4,4 +4,7 @@ This theme does not deviate too far from the normal "Zabbix Blue" theme. If you 
 Currently there is only a light variant of the theme, but adapting it for dark shouldn't be anything more than changing which base styles this theme imports.
 
 ## Installation instructions
-Write this :)
+#### Requirements:
+- Zabbix 6.2
+- Root/super user access to your Zabbix Frontend server via SSH
+- Permission to do this :)
