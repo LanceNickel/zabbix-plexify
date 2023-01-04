@@ -17,13 +17,13 @@ Currently there is only a light variant of the theme, but adapting it for dark s
 
 #### Add the theme to Zabbix:
 1. With your favourite text editor (such as Vim), open the Zabbix APP class at `/usr/share/zabbix/include/classes/core/APP.php`
-2. Before the closing brace, add the following code:
+2. Before the closing brace, add the following code (in the APP class):
 ```
-public static function getThemes() {
-    return array_merge(parent::getThemes(), [
-        'plexify' => _('Plexify')
-    ]);
-}
+    public static function getThemes() {
+        return array_merge(parent::getThemes(), [
+            'plexify' => _('Plexify')
+        ]);
+    }
 ```
 
 #### Activate the theme globally:
