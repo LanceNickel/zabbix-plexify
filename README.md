@@ -39,4 +39,4 @@ public static function getThemes() {
 Congratulations, you should now have Plexify installed and activated on your Zabbix Frontend, enjoy!
 
 ## Reporting issues
-Found a problem with this theme, please feel free to open an issue/propose a fix. This is some quick CSS I whipped up in 20 minutes with some limited testing of the full UI. Any improvements are greatly appreciated!
+Found a problem with this theme? Please feel free to open an issue/propose a fix. This is some quick CSS I whipped up in 20 minutes with some limited testing of the full UI. Any improvements are greatly appreciated!
