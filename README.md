@@ -13,10 +13,10 @@ Currently there is only a light variant of the theme, but adapting it for dark s
 #### Add the stylesheet:
 1. SSH into your Zabbix Server with Frontend
 2. Navigate to `/usr/share/zabbix/assets/styles` and create the file `plexify.css`
-3. In that file, paste the contents of plexify.css using your favourite text editor (like Vim) and write the file
+3. In that file, paste the contents of plexify.css using your favorite text editor (like Vim) and write the file
 
 #### Add the theme to Zabbix:
-1. With your favourite text editor (such as Vim), open the Zabbix APP class at `/usr/share/zabbix/include/classes/core/APP.php`
+1. With your favorite text editor (such as Vim), open the Zabbix APP class at `/usr/share/zabbix/include/classes/core/APP.php`
 2. Before the closing brace, add the following code (in the APP class):
 ```
     public static function getThemes() {
