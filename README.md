@@ -5,7 +5,7 @@ Currently there is only a light variant of the theme, but adapting it for dark s
 
 ## Installation instructions
 #### Requirements:
-- Zabbix 6.2
+- 6.4
 - Root/super user access to your Zabbix Frontend server via SSH
 - Administration privileges in Zabbix Frontend
 - Permission to do this :)
